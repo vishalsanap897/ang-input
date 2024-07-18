@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "phone": 9322983472,
+      "id": 2
+    },
+    {
+      "name": "akshda nagare",
+      "email": "akshadanagare20@gmail.com",
+      "phone": 9356643220,
+      "id": 3
+    },
+    {
+      "name": "akshda nagare",
+      "email": "akshadanagare20@gmail.com",
+      "phone": 9356643220,
+      "id": 4
+    },
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com",
+      "phone": 54656346,
+      "id": 5
+    },
+    {
+      "name": "mosin",
+      "email": "mosin@gmail.com",
+      "phone": 335346556,
+      "id": 6
+    },
+    {
+      "name": "ajinkya",
+      "email": "ajinkya@gmail.com",
+      "phone": 54656346,
+      "id": 7
+    },
+    {
+      "name": "rahul",
+      "email": "rahul8797@gmail.com",
+      "phone": 24353454,
+      "id": 8
+    },
+    {
+      "name": "swapnil",
+      "email": "swapnil@gmail.com",
+      "phone": 67897856785,
+      "id": 9
+    },
+    {
+      "name": "swapnil",
+      "email": "swapnil@gmail.com",
+      "phone": 67897856785,
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "phone": "",
+      "id": 11
+    },
+    {
+      "name": "vishal sanap",
+      "email": "sadfs@gmail.com",
+      "phone": 9322983472,
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

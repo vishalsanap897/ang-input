@@ -1,0 +1,46 @@
+<!-- <app-child [name]="description" [data]="student" [companyName]="company">
+
+</app-child>
+
+<app-home [college]="collegeName">
+    
+</app-home> -->
+<!-- <ul *ngFor="let a of data ">
+    <li></li>
+</ul>
+
+<app-child1 (class)="addUser($event)"></app-child1>
+
+<input type="button" (click)="save()"> -->
+
+
+
+
+
+<form [formGroup]="form">
+    <input type="text" placeholder="enter name" formControlName="name">
+    <br>
+    <br>
+    <input type="email" placeholder="enter email" formControlName="email">
+    <br>
+    <br>
+    <input type="number" placeholder="enter phone no" formControlName="phone">
+    <br>
+    <br>
+    <button type="submit" (click)="submit()">submit</button>
+
+  </form>
+  <ol type="number" *ngFor="let a of userData">
+    <li >
+        {{a.name}}
+        <p>{{a.email}}</p>
+        <p>{{a.phone}}</p>
+        <p>{{a.id}}</p>
+        
+        
+    </li>
+    <button (click)="allData(a.id)">delete</button>
+  </ol>
+ 
+
+ 
